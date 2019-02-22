@@ -1,0 +1,10 @@
+id: che-service-plugin
+version: 0.0.1
+type: VS Code extension
+name: k8s extension
+title: k8s extension
+description: k8s extension
+icon: https://www.eclipse.org/che/images/ico/16x16.png
+attributes:
+ - container-image: dockerhub.io/garagatyi/kubectlnode:latest
+ - extension: vscode:extension/ms-kubernetes-tools.vscode-kubernetes-tools
